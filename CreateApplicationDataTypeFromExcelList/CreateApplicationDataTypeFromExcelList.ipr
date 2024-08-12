@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions>
+      <entry name=".+\.(properties|xml|html|dtd|tld)" />
+      <entry name=".+\.(gif|png|jpeg|jpg)" />
+    </resourceExtensions>
+    <wildcardResourcePatterns>
+      <entry name="!?*.class" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.java" />
+    </wildcardResourcePatterns>
+    <bytecodeTargetLevel target="1.8" />
+  </component>
+  <component name="CopyrightManager" default="" />
+  <component name="DependencyValidationManager">
+    <option name="SKIP_IMPORT_STATEMENTS" value="false" />
+  </component>
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+  <component name="GradleUISettings">
+    <setting name="root" />
+  </component>
+  <component name="GradleUISettings2">
+    <setting name="root" />
+  </component>
+  <component name="IdProvider" IDEtalkID="11DA1DB66DD62DDA1ED602B7079FE97C" />
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+    </profile>
+    <version value="1.0" />
+  </component>
+  <component name="JavadocGenerationManager">
+    <option name="OTHER_OPTIONS" value="" />
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CreateApplicationDataTypeFromExcelList.iml" filepath="$PROJECT_DIR$/CreateApplicationDataTypeFromExcelList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CreateApplicationDataTypeFromExcelList.dvScriptTest.iml" filepath="$PROJECT_DIR$/CreateApplicationDataTypeFromExcelList.dvScriptTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CreateApplicationDataTypeFromExcelList.main.iml" filepath="$PROJECT_DIR$/CreateApplicationDataTypeFromExcelList.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CreateApplicationDataTypeFromExcelList.test.iml" filepath="$PROJECT_DIR$/CreateApplicationDataTypeFromExcelList.test.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven" />
+      <option name="name" value="maven" />
+      <option name="url" value="https://vistrpesart1.vi.vector.int/artifactory/pes-davinciallreleases-maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven" />
+      <option name="name" value="maven" />
+      <option name="url" value="https://vistrpesart1.vi.vector.int/artifactory/pes-davinciall-maven" />
+    </remote-repository>
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+  </component>
+  <component name="libraryTable">
+    <library name="Gradle: com.vector.cfg:DVCfgAutomationGroovyCompilerExtension:1.0.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../DaVinci/CBD2201090/D01/external/DaVinciConfigurator/Core/AutomationInterface/libs/DVCfgAutomationGroovyCompilerExtension-1.0.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.vector.cfg:DVCfgAutomationInterfaceBswmdModel_CLASSES:1.0.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../DaVinci/CBD2201090/D01/external/DaVinciConfigurator/BswmdModel/DVCfgAutomationInterfaceBswmdModel_CLASSES-1.0.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.vector.cfg:DVCfg_AIModelInterface:1.14.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../DaVinci/CBD2201090/D01/external/DaVinciConfigurator/Core/AutomationInterface/libs/DVCfg_AIModelInterface-1.14.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.vector.cfg:DVCfg_AIModelInterface:stable:1.14.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../DaVinci/CBD2201090/D01/external/DaVinciConfigurator/Core/AutomationInterface/libs/DVCfg_AIModelInterface-1.14.0-stable.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.vector.cfg:DVCfg_AITargetPlatform:1.14.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../DaVinci/CBD2201090/D01/external/DaVinciConfigurator/Core/AutomationInterface/libs/DVCfg_AITargetPlatform-1.14.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.vector.cfg:DVCfg_AITargetPlatform:stable:1.14.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../DaVinci/CBD2201090/D01/external/DaVinciConfigurator/Core/AutomationInterface/libs/DVCfg_AITargetPlatform-1.14.0-stable.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.vector.cfg:DVCfg_AutomationInterface:1.14.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../DaVinci/CBD2201090/D01/external/DaVinciConfigurator/Core/AutomationInterface/libs/DVCfg_AutomationInterface-1.14.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.vector.cfg:DVCfg_AutomationInterface:stable:1.14.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../DaVinci/CBD2201090/D01/external/DaVinciConfigurator/Core/AutomationInterface/libs/DVCfg_AutomationInterface-1.14.0-stable.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.codehaus.groovy:groovy:indy:2.5.8">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/2.5.8/d39de29502b9e8b55c7ae2aa4aae3b3435b6f909/groovy-2.5.8-indy.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/2.5.8/5e4bc314f6cb4026a2da716e3168b1a618800b06/groovy-2.5.8-sources.jar!/" />
+      </SOURCES>
+    </library>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <UIState>
+          <splitter-proportions>
+            <SplitterProportionsDataImpl />
+          </splitter-proportions>
+          <settings />
+        </UIState>
+      </state>
+      <state key="Copyright.UI">
+        <UIState>
+          <splitter-proportions>
+            <SplitterProportionsDataImpl />
+          </splitter-proportions>
+        </UIState>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <UIState>
+          <splitter-proportions>
+            <SplitterProportionsDataImpl>
+              <option name="proportions">
+                <list>
+                  <option value="0.2" />
+                </list>
+              </option>
+            </SplitterProportionsDataImpl>
+          </splitter-proportions>
+          <last-edited>1.6</last-edited>
+        </UIState>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <UIState>
+          <splitter-proportions>
+            <SplitterProportionsDataImpl />
+          </splitter-proportions>
+          <settings />
+        </UIState>
+      </state>
+    </states>
+  </component>
+</project>

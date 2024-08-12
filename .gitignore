@@ -1,0 +1,8 @@
+*.iws
+*.log
+*.jar
+.gradle/
+.idea/
+build/
+schemas/
+settings/

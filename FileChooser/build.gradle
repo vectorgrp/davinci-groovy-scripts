@@ -1,0 +1,32 @@
+/*
+ * AutomationInterface bootstrap
+ */
+apply from:'dvCfgAutomationBootstrap.gradle'
+
+
+apply plugin: 'java'
+repositories {
+
+    // URL to your repository
+    // The URL below is the Vector internal network server
+    // Please change the URL to your server
+    maven { url 'https://vistrpesart1.vi.vector.int/artifactory/pes-davinciall-maven' }
+
+    // Or reference MavenCentral server
+    //mavenCentral()
+
+    flatDir {
+        dirs 'poiLibraries'
+    }
+}
+
+/*
+ * AutomationInterface configuration
+ */
+dvCfgAutomation {
+    classes project.ext.automationClasses
+}
+dependencies {
+    implementation fileTree('libs')
+
+}
