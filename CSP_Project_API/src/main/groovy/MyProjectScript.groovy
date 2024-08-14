@@ -1,3 +1,8 @@
+/* Copyright (c) 2024 Vector Informatik GmbH
+ * SPDX-License-Identifier: MIT
+ */
+
+
 import com.vector.cfg.automation.model.ecuc.microsar.ecuc.EcuC
 import com.vector.cfg.automation.model.ecuc.microsar.ecuc.ecucgeneral.EcucGeneral
 import com.vector.cfg.automation.model.ecuc.microsar.ecuc.ecucgeneral.cputype.CPUType

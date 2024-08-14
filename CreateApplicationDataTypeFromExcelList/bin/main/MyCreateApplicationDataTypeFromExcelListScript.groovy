@@ -1,3 +1,7 @@
+/* Copyright (c) 2024 Vector Informatik GmbH
+ * SPDX-License-Identifier: MIT
+ */
+
 import com.vector.cfg.automation.api.ScriptApi
 import com.vector.cfg.model.access.IMdfAccessPublishedExt
 import com.vector.cfg.model.mdf.ar4x.swcomponenttemplate.datatype.datatypes.MIApplicationPrimitiveDataType

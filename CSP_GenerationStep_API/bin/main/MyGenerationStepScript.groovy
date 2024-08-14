@@ -1,3 +1,7 @@
+/* Copyright (c) 2024 Vector Informatik GmbH
+ * SPDX-License-Identifier: MIT
+ */
+
 import com.vector.cfg.automation.model.ecuc.microsar.ecuc.EcuC
 import static com.vector.cfg.automation.api.ScriptApi.*
 import com.vector.cfg.consistency.EValidationSeverityType

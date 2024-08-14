@@ -1,6 +1,6 @@
 ## DaVinci Groovy Scripts
 This repository contains a collection of Groovy scripts for a variety of purposes.
-They all use the Published Automation Interface (PAI) of DaVinci Configurator 5.
+They all use the Published Automation Interface (PAI) of [DaVinci Configurator 5](https://www.vector.com/de/de/produkte/produkte-a-z/software/davinci-configurator-classic/).
 
 <table>
 <thead>

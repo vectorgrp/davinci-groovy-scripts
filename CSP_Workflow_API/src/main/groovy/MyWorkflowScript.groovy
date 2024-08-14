@@ -1,3 +1,7 @@
+/* Copyright (c) 2024 Vector Informatik GmbH
+ * SPDX-License-Identifier: MIT
+ */
+
 import com.vector.cfg.model.mdf.model.autosar.base.MIARPackage
 
 import static com.vector.cfg.automation.api.ScriptApi.daVinci

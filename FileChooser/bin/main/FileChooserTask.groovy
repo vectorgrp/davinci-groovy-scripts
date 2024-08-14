@@ -1,3 +1,7 @@
+/* Copyright (c) 2024 Vector Informatik GmbH
+ * SPDX-License-Identifier: MIT
+ */
+
 import org.apache.poi.hssf.usermodel.HSSFWorkbook
 import javax.swing.JFileChooser
 import javax.swing.filechooser.FileFilter
