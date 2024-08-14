@@ -1,0 +1,65 @@
+
+apply plugin: 'java'
+repositories {
+
+    // URL to your repository
+    // The URL below is the Vector internal network server
+    // Please change the URL to your server
+    maven { url 'https://vistrpesart1.vi.vector.int/artifactory/pes-davinciall-maven' }
+
+    // Or reference MavenCentral server
+    //mavenCentral()
+
+    flatDir {
+        dirs 'poiLibraries'
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'D:/PES 8/DaVinci/CBD2201090/D01/external/DaVinciConfigurator/Core/AutomationInterface/libs')
+    implementation fileTree(include: ['*.jar'], dir: 'D:/PES 8/DaVinci/CBD2201090/D01/external/DaVinciConfigurator/Core/AutomationInterface/buildLibs')
+    implementation fileTree(include: ['*.jar'], dir: 'D:/PES 8/DaVinci/CBD2201090/D01/external/DaVinciConfigurator/Core/plugins')
+    implementation fileTree(include: ['*.jar'], dir: 'D:/PES 8/DaVinci/CBD2201090/D01/external/DaVinciConfigurator/AutomationScripts/plugins')
+    implementation fileTree(include: ['*.jar'], dir: 'D:/PES 8/DaVinci/CBD2201090/D01/external/DaVinciConfigurator/BswmdModel/')
+
+
+
+    implementation fileTree(include: ['*.jar'], dir: './poiLibraries')
+    //name: 'poi-4.1.0'
+    /*compile name: 'commons-collections4-4.3'
+     compile name: 'commons-codec-1.12'
+     compile name: 'commons-logging-1.2'
+     compile name: 'poi-examples-4.1.0'
+     compile name: 'poi-ooxml-4.1.0'
+     compile name: 'poi-ooxml-schemas-4.1.0'
+     compile name: 'poi-excelant-4.1.0'
+     compile name: 'poi-scratchpad-4.1.0'
+     compile name: 'xmlbeans-3.1.0'
+     compile name: 'junit-4.12'
+     compile name: 'log4j-1.2.17'
+     compile name: 'jaxb-api-2.3.0'
+     compile name: 'jaxb-core-2.3.0.1'
+     compile name: 'jaxb-impl-2.3.0.1'*/
+    //compile 'org.apache.poi:poi-ooxml:4.1.0'*/
+}
+/*
+ * AutomationInterface bootstrap
+ */
+apply from:'dvCfgAutomationBootstrap.gradle'
+
+/*
+ * AutomationInterface configuration
+ */
+dvCfgAutomation {
+    classes project.ext.automationClasses
+}
+
+/*
+ * If spock test framework is needed, comment in this lines.
+ */
+// dependencies {
+//    compileOnly("org.spockframework:spock-core:1.3-groovy-2.5"){
+//        exclude group: 'org.codehaus.groovy', module: 'groovy-all'
+//    }
+// }
+

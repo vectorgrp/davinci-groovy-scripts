@@ -1,0 +1,13 @@
+/*
+ * AutomationInterface bootstrap
+ */
+apply from:'dvCfgAutomationBootstrap.gradle'
+
+/*
+ * AutomationInterface configuration
+ */
+dvCfgAutomation {
+    classes project.ext.automationClasses
+}
+
+
