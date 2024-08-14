@@ -1,3 +1,7 @@
+/* Copyright (c) 2024 Vector Informatik GmbH
+ * SPDX-License-Identifier: MIT
+ */
+
 import com.vector.cfg.automation.model.ecuc.microsar.dem.Dem
 import com.vector.cfg.automation.model.ecuc.microsar.dem.demconfigset.DemConfigSet
 import com.vector.cfg.automation.model.ecuc.microsar.dem.demconfigset.demeventparameter.DemEventParameter
