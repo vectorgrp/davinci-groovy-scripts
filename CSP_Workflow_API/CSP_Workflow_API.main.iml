@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="CSP_Workflow_API:main" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" external.system.module.group="" external.system.module.type="sourceSet" external.system.module.version="1.0.0" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/build/classes/groovy/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/groovy" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.vector.cfg:DVCfg_AutomationInterface:1.14.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.vector.cfg:DVCfg_AutomationInterface:stable:1.14.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.vector.cfg:DVCfg_AITargetPlatform:1.14.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.vector.cfg:DVCfg_AITargetPlatform:stable:1.14.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.vector.cfg:DVCfg_AIModelInterface:1.14.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.vector.cfg:DVCfg_AIModelInterface:stable:1.14.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.codehaus.groovy:groovy:indy:2.5.8" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.vector.cfg:DVCfgAutomationGroovyCompilerExtension:1.0.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.vector.cfg:DVCfgAutomationInterfaceBswmdModel_CLASSES:1.0.0" level="project" />
+  </component>
+</module>

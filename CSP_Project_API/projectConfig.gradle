@@ -1,0 +1,10 @@
+/*
+ * Project wide settings 
+ */
+project.version = '1.0.0'
+project.ext.automationClasses = [
+        "MyProjectScript"
+]
+
+// Please specify the path to your DaVinci Configurator installation in your SIP.
+project.ext.dvCfgInstallation = new File("D:\\PES_8\\DaVinci\\CBD2201090\\D01\\external\\DaVinciConfigurator")
